@@ -21,11 +21,3 @@ class Card:
                 print('{} of {}'.format(self.number, self.suit))
         else:
             print('Card is a Joker')
-
-ace_spades = Card(False, 'spades', 0)
-queen_hearts = Card(False, 'hearts', 12)
-nine_diamonds = Card(False, 'diamonds', 9)
-
-ace_spades.print_description()
-queen_hearts.print_description()
-nine_diamonds.print_description()
